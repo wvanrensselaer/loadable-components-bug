@@ -1,0 +1,34 @@
+{
+  "name": "loadable-components-bug",
+  "version": "0.0.0",
+  "private": true,
+  "main": "index.js",
+  "license": "UNLICENSED",
+  "scripts": {
+    "build": "webpack",
+    "watch": "webpack --watch",
+    "start": "node ./server/index.js"
+  },
+  "devDependencies": {
+    "@babel/cli": "^7.13.16",
+    "@babel/core": "^7.14.0",
+    "@babel/preset-env": "^7.14.0",
+    "@babel/preset-react": "^7.13.13",
+    "@loadable/babel-plugin": "^5.13.2",
+    "@loadable/webpack-plugin": "^5.14.2",
+    "babel-loader": "^8.2.2",
+    "clean-webpack-plugin": "^4.0.0-alpha.0",
+    "prettier": "^2.2.1",
+    "webpack": "^5.36.1",
+    "webpack-cli": "^4.6.0",
+    "webpack-stats-plugin": "^1.0.3"
+  },
+  "dependencies": {
+    "@loadable/component": "^5.14.1",
+    "@loadable/server": "^5.14.2",
+    "domready": "^1.0.8",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2"
+  }
+}
