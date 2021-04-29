@@ -1,3 +1,5 @@
-module.exports = {
-  title: 'Hello',
-};
+import React from 'react';
+
+export default function Test() {
+  return <div>Hello</div>;
+}
